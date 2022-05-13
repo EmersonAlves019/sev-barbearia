@@ -7,7 +7,7 @@ export default function AboutDescription() {
     <S.AboutDescriptionContainer>
       <span>Uma história única</span>
       <h2>52 anos de experiência</h2>
-      <div className="text">
+      <div>
           <div>
               <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam sint alias voluptatem earum quidem aut cum quibusdam autem totam. Harum cupiditate quo, incidunt eos numquam dolorum ad aspernatur alias distinctio?
