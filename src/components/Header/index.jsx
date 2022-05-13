@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import * as S from './styles'
 import { useNavigate, useParams } from 'react-router-dom'
-import { Link } from 'react-scroll'
+import { Link, scroller } from 'react-scroll'
 import Logo from '../../assets/images/logo.png'
 
 export default function Header() {
@@ -11,6 +11,7 @@ export default function Header() {
 
   useEffect(() => {
     console.log(path);
+    scroller.scrollTo(path, false, 0, -65);
     const handler = () => {
       setShrunk((isShrunk) => {
         if (
