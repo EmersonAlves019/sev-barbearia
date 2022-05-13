@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, {css} from 'styled-components'
 
 export const HeaderContainer = styled.header`
   display: flex;
@@ -8,6 +8,14 @@ export const HeaderContainer = styled.header`
   height: 140px;
   color: #fff;
   background-color: rgba(0,0,0, 25%) ;
+  transition: all 0.3s;
+
+  ${({isShrunk}) => isShrunk && css`
+    position: fixed;
+    height: 60px;
+    background-color: black;
+    z-index: 5;
+  `}
   
   ul {
     list-style: none;
@@ -34,5 +42,14 @@ export const HeaderContainer = styled.header`
       border-bottom: 1px solid #FFF;
       transform: translateY(-5px) ;
     }
+  }
+
+  img {
+    height: 80%;
+    
+  ${({isShrunk}) => isShrunk && css`
+      order: -5;
+      width: 60px;
+  `}
   }
 `

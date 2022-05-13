@@ -12,7 +12,8 @@ export const HomeContainer = styled.main`
 export const BgBanner = styled.div`
   width: 100vw;
   height: 100vh;
-  background-image: url(${bgHome}) ;
+  background-image: url(${bgHome});
+  background-size: cover ;
   position: fixed;
   z-index: -1;
 `
