@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import 'react-perfect-scrollbar/dist/css/styles.css';
 
 export const GlobalStyle = createGlobalStyle`
 
