@@ -11,23 +11,19 @@ export default function AboutSideBar() {
         <img src={classicCut} alt="Horários" />
         <h3>Horários</h3>
           <div>
-              <h4>Segunda-feira à Sexta-feira</h4>
-              <p>09:00AM - 05:00PM</p>
-          </div>
-          <div>
-              <h4>Sábado</h4>
-              <p>09:00AM - 02:00PM</p>
+              <h4>Segunda-feira à Sábado</h4>
+              <p>07:00 - 19:00</p>
           </div>
           <div>
                 <h4>Domingo</h4>
                 <p>Fechado</p>
           </div>
-          <span>
+          <div>
               <img alt="Localização" src={imagesloc}/>
-              <p>Rua da Matrix, 33</p>
+              <p>R. Supervisor Ivaldo Ferino, Nº 330</p>
               <img alt="Telefone" src={imagesphone}/>
-              <p>(11) 9999-9999</p>
-          </span>
+              <p>(82) 98810-1424</p>
+          </div>
       </section>
     </S.AboutSideBarContainer>
   )

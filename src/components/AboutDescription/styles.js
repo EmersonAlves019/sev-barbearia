@@ -18,7 +18,7 @@ export const AboutDescriptionContainer = styled.article`
     }
 
     p {
-      font-size: 17px;
+      font-size: 20px;
       margin-bottom: 20px;
     }
 

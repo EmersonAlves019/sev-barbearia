@@ -4,16 +4,21 @@ export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 140px;
   color: #fff;
   background-color: rgba(0,0,0, 25%) ;
   transition: all 0.3s;
 
+  img {
+    height: 80%;
+    width: 100px;
+  }
+
   ${({isShrunk}) => isShrunk && css`
     position: fixed;
     height: 60px;
-    background-color: black;
+    background-color: rgba(0,0,0, 95%);
     z-index: 5;
   `}
   
@@ -46,10 +51,11 @@ export const HeaderContainer = styled.header`
 
   img {
     height: 80%;
+    align-self: center;
     
-  ${({isShrunk}) => isShrunk && css`
+  ${({ isShrunk }) => isShrunk && css`
       order: -5;
-      width: 60px;
+      width: 40px;
   `}
   }
 `

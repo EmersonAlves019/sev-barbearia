@@ -16,10 +16,13 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-weight: 400;
+
   }
 
   body { 
     font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
 
     
     h2 {

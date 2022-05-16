@@ -10,7 +10,6 @@ export default function Header() {
   const [isShrunk, setShrunk] = useState(false);
 
   useEffect(() => {
-    console.log(path);
     scroller.scrollTo(path, false, 0, -65);
     const handler = () => {
       setShrunk((isShrunk) => {
@@ -39,7 +38,7 @@ export default function Header() {
 
   const options = {
     duration: 500,
-    smooth: 'true'
+    smooth: true
   }
 
   return (
@@ -52,17 +51,17 @@ export default function Header() {
               <Link to="sobre" onClick={() => navigate('/sobre')} {...options} offset={-100}>Sobre</Link>
           </li>
           <li>
-              <Link to="servicos" onClick={() => navigate('/servicos')} {...options} offset={-50}>Serviços</Link>
+              <Link to="agendamento" onClick={() => navigate('/agendamento')} {...options} offset={-60}>Agendamento</Link>
           </li>
             <img src={Logo} alt='logo' />
           <li>
-              <Link to="agendamento" onClick={() => navigate('/agendamento')} {...options} offset={-60}>Agendamento</Link>
+              <Link to="galeria" onClick={() => navigate('/galeria')} spy={true} {...options} offset={-60}>Galeria</Link>
           </li>
           <li>
-              <Link to="galeria" onClick={() => navigate('/galeria')} spy={true} {...options} offset={-50}>Galeria</Link>
+              <Link to="produtos"  onClick={() => navigate('/produtos')} spy={true} {...options} offset={-50}>Produtos</Link>
           </li>
           <li>
-              <Link to="localizacao"  onClick={() => navigate('/localizacao')} spy={true} {...options} offset={-50}>Localização</Link>
+              <Link to="localizacao" onClick={() => navigate('/localizacao')} {...options} offset={-50}>Localização</Link>
           </li>
        </ul>
     </S.HeaderContainer>

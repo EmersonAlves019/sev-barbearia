@@ -15,7 +15,7 @@ export const BannerContainer = styled.header`
   align-items: center;
 
   h1 {
-    font-size: 120px;
+    font-size: 110px;
     width: 1200px;
     font-weight: bold;
   }
