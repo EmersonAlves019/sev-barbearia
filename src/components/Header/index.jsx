@@ -51,14 +51,14 @@ export default function Header() {
               <Link to="sobre" onClick={() => navigate('/sobre')} {...options} offset={-100}>Sobre</Link>
           </li>
           <li>
-              <Link to="agendamento" onClick={() => navigate('/agendamento')} {...options} offset={-60}>Agendamento</Link>
+              <Link to="produtos"  onClick={() => navigate('/produtos')} spy={true} {...options} offset={-50}>Produtos</Link>
           </li>
             <img src={Logo} alt='logo' />
           <li>
-              <Link to="galeria" onClick={() => navigate('/galeria')} spy={true} {...options} offset={-60}>Galeria</Link>
+              <Link to="agendamento" onClick={() => navigate('/agendamento')} {...options} offset={-60}>Agendamento</Link>
           </li>
           <li>
-              <Link to="produtos"  onClick={() => navigate('/produtos')} spy={true} {...options} offset={-50}>Produtos</Link>
+              <Link to="galeria" onClick={() => navigate('/galeria')} spy={true} {...options} offset={-60}>Galeria</Link>
           </li>
           <li>
               <Link to="localizacao" onClick={() => navigate('/localizacao')} {...options} offset={-50}>Localização</Link>

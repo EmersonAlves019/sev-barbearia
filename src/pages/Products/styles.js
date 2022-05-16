@@ -12,9 +12,11 @@ export const ProductsContainer = styled.section`
     overflow: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap:  wrap;
     width: 70%;
     height: 70%;
+
 
   }
 
@@ -31,16 +33,16 @@ export const ProductsContainer = styled.section`
       margin-top: 20px;
       margin-bottom: 60px;
     }
-
 `
+
 export const ProductCard = styled.div`
   margin: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 230px;
-  height: 300px;
+  width: 200px;
+  height: 280px;
   box-shadow: 0 0 10px 0 #a9a9a9;
   background: #ddd1c1;
   border-radius: 8px;
@@ -56,14 +58,5 @@ export const ProductCard = styled.div`
 
   h4{
     padding: 18px;
-  }
-
-  button {
-    width: 95%;
-    background: var(--main-color);
-    font-size: 20px;
-    color: var(--light);
-    border:none;
-    border-radius: 5px ;
   }
 `

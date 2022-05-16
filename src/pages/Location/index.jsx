@@ -16,7 +16,7 @@ export default function Location() {
                 </div>
                 <div>
                     <h5>Localização</h5>
-                    <h6>Rua da Matrix, 33</h6>
+                    <h6>R. Supervisor Ivaldo Ferino, Nº 330</h6>
                 </div>
             </div>
             <div className="info">
@@ -25,7 +25,7 @@ export default function Location() {
                 </div>
                 <div>
                     <h5>Telefone</h5>
-                    <h6>(11) 9999-9999</h6>
+                    <h6>(82) 98810-1424</h6>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@ export default function Location() {
                 </div>
                 <div>
                     <h5>Horário</h5>
-                    <h6>Seg. à Sex: 9AM às 5PM</h6>
+                    <h6>Seg. à Sab: 07:00 - 19:00</h6>
                 </div>
             </div>
         </div>

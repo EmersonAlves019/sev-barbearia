@@ -46,21 +46,18 @@ export default function Schedule() {
                   {service.map((item) => (<option key={item}>{item}</option>))}
                 </select>
           </div>
-
-        </div>
-        <section>
-            <div>
-                <label htmlFor="telefone">Data</label>
-                <input name="telefone" id="telefone" placeholder="Digite o seu telefone" type="date"/>
-            </div>
-            <div>
-                <label htmlFor="telefone">Horário</label>
-                <input name="telefone" id="telefone" placeholder="Digite o seu telefone" type="time"/>
-            </div>
-        </section>
-                <label htmlFor="mensagem">Mensagem:</label>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="6"></textarea>
-                <button>Enviar</button>
+          <div>
+              <label htmlFor="telefone">Data</label>
+              <input name="telefone" id="telefone" placeholder="Digite o seu telefone" type="date"/>
+          </div>
+          <div>
+              <label htmlFor="telefone">Horário</label>
+              <input name="telefone" id="telefone" placeholder="Digite o seu telefone" type="time"/>
+          </div>
+          </div>
+            <label htmlFor="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="6"></textarea>
+            <button>Enviar</button>
           </form>
     </S.ScheduleContainer>
   );

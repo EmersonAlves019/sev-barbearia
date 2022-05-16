@@ -8,7 +8,7 @@ export const GalleryContainer = styled.section`
     justify-content: center;
     background-color: var(--light);
     padding-bottom: 150px;
-    height: 60vw;
+    height: 950px;
 
     h2 {
       margin-top: 60px;
@@ -25,16 +25,15 @@ export const GalleryContainer = styled.section`
     }
 
     section {
-      margin: 60px 0;
-      height: 120vh;
+      margin-top: 60px;
       flex-wrap: wrap;
       width: 1050px;
 
       div {
         display: inline-block;
         width: 25%;
-        height: 360px;
-        min-height: 380px;
+        height: 300px;
+        min-height: 320px;
         overflow: hidden;
         margin: 5px;
         border: 10px solid var(--main-color);
@@ -47,7 +46,7 @@ export const GalleryContainer = styled.section`
 
       }
       div[id='foto5']{
-        width: 65% ;
+        width: 60% ;
       }
   }
 `;

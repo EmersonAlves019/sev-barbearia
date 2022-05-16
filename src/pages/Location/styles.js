@@ -3,7 +3,7 @@ import location from '../../assets/images/bg-location.jpg'
 
 export const LocationContainer = styled.section`
     width: 100%;
-    height: 40vw;
+    height: 850px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,6 +14,7 @@ export const Container = styled.section`
     padding-top: 100px;
     padding-bottom: 100px;
     width: 60%;
+    min-width: 950px;
 
 
 .contacts {

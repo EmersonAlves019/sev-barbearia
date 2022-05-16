@@ -24,29 +24,23 @@ export const ScheduleContainer = styled.section`
 }
 
 form {
-    margin-top: 60px;
-    width: 60%;
-}
-
-section {
-  display: flex;
-      div {
-      display: flex;
-      flex-direction: column;
-      margin-right: 50px;
-    }
-     margin-bottom: 60px;
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  width: 60%;
+  min-width: 850px;
 }
 
 .form-header {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
 
     div {
       display: flex;
       flex-direction: column;
+      margin: 20px 30px 0 0;
     }
-    margin-bottom: 60px;
 }
 
 label {
@@ -66,8 +60,12 @@ label {
 }
  textarea {
     width: 100%;
+    margin-right: 30px;
     border-radius: 3px;
     border: none;
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
 }
 button {
     display:block;
@@ -79,50 +77,3 @@ button {
     background-color: var(--main-darker);
 }
 `;
-
-
-/* display: flex;
-flex-direction: column;
-align-items: center;
-position: relative;
-
-height: 50vw;
-background-color: var(--main-color);
-
-h2  {
-  color: var(--light);
-  &:after {
-    content: '';
-    display: block;
-    margin: 15px auto;
-    background-image: url(${heading});
-    background-repeat: no-repeat;
-    height: 30px;
-    width: 150px;
-  }
-} */
-// export const ScheduleCardsContainer = styled.section`
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   border-radius: 10px;
-//   padding-top: 20px;
-
-//   width: 50%;
-//   height: 80%;
-//   background: #fff;
-// `;
-
-// export const Content = styled.section`
-//   display: flex;
-//   justify-content: space-evenly;
-//   width: 70%;
-//   height: 80%;
-// `;
-
-// export const ImageBackground = styled.img`
-//   position:absolute;
-//   left: 10px;
-//   bottom: 0;
-//   transform: scaleX(-1);
-// `
