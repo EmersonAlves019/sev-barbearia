@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import location from '../../assets/images/bg-location.jpg'
+import {BsWhatsapp} from 'react-icons/bs'
 
 export const LocationContainer = styled.section`
     width: 100%;
@@ -49,5 +50,12 @@ export const Container = styled.section`
     color: white;
     font-weight: 400;
 }
+
+`
+
+export const WhatsIcon = styled(BsWhatsapp)`
+    color: #917758;
+    width: 18px;
+    height: 18px;
 
 `

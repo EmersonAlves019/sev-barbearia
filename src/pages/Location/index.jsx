@@ -1,8 +1,6 @@
 import React from 'react'
 import * as S from './styles'
 import location from '../../assets/images/map-img1.png'
-import cel from '../../assets/images/map-img2.png'
-import email from '../../assets/images/map-img3.png'
 import time from '../../assets/images/map-img4.png'
 
 export default function Location() {
@@ -21,24 +19,13 @@ export default function Location() {
             </div>
             <div className="info">
                 <div className="icon">
-                    <img className="loc-icon" alt="Telefone" src={cel}/>
+                    <S.WhatsIcon/>
                 </div>
                 <div>
                     <h5>Telefone</h5>
                     <h6>(82) 98810-1424</h6>
                 </div>
             </div>
-
-            <div className="info">
-                <div className="icon">
-                    <img className="loc-icon" alt="E-mail" src={email}/>
-                </div>
-                <div>
-                    <h5>E-mail</h5>
-                    <h6>contato@barbershop.com</h6>
-                </div>
-            </div>
-
             <div className="info">
                 <div className="icon">
                     <img className="loc-icon" alt="Horário" src={time}/>

@@ -1,7 +1,6 @@
 import React from 'react'
 import * as S from './styles'
 import classicCut from '../../assets/images/classic-cut.png'
-import imagesphone from '../../assets/images/phone-ic.png'
 import imagesloc from '../../assets/images/loc-ic.png'
 
 export default function AboutSideBar() {
@@ -21,9 +20,11 @@ export default function AboutSideBar() {
           <div>
               <img alt="Localização" src={imagesloc}/>
               <p>R. Supervisor Ivaldo Ferino, Nº 330</p>
-              <img alt="Telefone" src={imagesphone}/>
-              <p>(82) 98810-1424</p>
           </div>
+     
+              <S.WhatsIcon/>
+              <p>(82) 98810-1424</p>
+       
       </section>
     </S.AboutSideBarContainer>
   )

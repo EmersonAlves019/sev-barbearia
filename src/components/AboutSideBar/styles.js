@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import brush from '../../assets/images/brush-big.jpg'
+import {BsWhatsapp} from 'react-icons/bs'
 
 export const AboutSideBarContainer = styled.aside`
     position: relative;
@@ -58,4 +59,12 @@ export const AboutSideBarContainer = styled.aside`
         border-bottom: 1px solid var(--main-color);
       }
     }
+`
+
+
+export const WhatsIcon = styled(BsWhatsapp)`
+    color: #917758;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
 `
